@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border-radius: ;
+}
+.top-topbar{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    align-content: center;
+    padding-top: 0.5rem;
+}
+.description{
+    margin-left: 12rem;
+    padding-top: 0.5rem; 
+}
+.title{
+    padding-top: 0.5rem;
+}
+.hamburguer svg{
+    width: 3rem;
+    height: 3rem;
+    fill: white;
+}
+main{
+
+}
+.filter-bar{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filter-bar svg{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 12rem;
+}
+
+.introduced-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+}
+.table{
+
+    width: 50%;
+    background-color: yellow;
+
+}
+.manage-table-data{
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+.manage-table-data svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.table-register{
+    
+    background-color: green;
+    margin: 5px;
+}
+
+.add-something{
+width: 50%;
+background-color: blue;
+}
+.clean-save-addsomething-data{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.clean-save-addsomething-data svg{
+    width: 2rem;
+    height: 2rem;
+}
+form{
+    background-color: white;
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+.form-element{
+
+}
+.form-element-label{
+
+}
+.form-element-input{
+
+}
+.form-element-input input{
+    width: 20rem;
+}
