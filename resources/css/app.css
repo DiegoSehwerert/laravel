@@ -48,7 +48,7 @@ main{
 
 }
 .filter-bar{
-    background-color: rgb(48, 48, 214);
+    background-color: hsl(240, 67%, 51%);
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -63,74 +63,115 @@ main{
 
 .introduced-content{
     width: 100%;
-    height:94.6%;
+    height: 95.3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
+    background-color:  hsl(253, 58%, 46%);
+    border: none;
     gap:1%;
 }
 .table{
     width: 55%;
-    background-color: grey;
+    background-color: hsl(253, 58%, 46%);
 }
 
 .table-registers{
     width:100%;
-    height:100%;
-    background-color:yellow;
+    background-color:hsl(253, 58%, 46%);
     display:flex;
+    /* justify-content: space-evenly; */
     flex-direction: column;
-    align-items:left;
-    padding-left:2%;
-    gap:1rem;
+    align-items:center;
+    /* padding-left:10%; */
+    /* gap:1rem; */
+    padding-top: 5%;
+    /* text-align: center; */
+   
+.table-register{
+    background-color: hsl(226, 64%, 66%);
+    box-shadow: 5px 5px 20px 1px #000000;
+    width:80%;
+    /* height:15%; */
+    font-size: 1.2rem;
+   margin-bottom:  2%;
+   color: white;
+   text-transform: capitalize;
+}
 }
 .manage-table-data{
-    background-color: red;
+    background-color:hsl(207, 85%, 69%);
     display: flex;
     justify-content: flex-end;
+    gap: 2%;
+    padding-right: 1%;
+}
+.manage-table-data button{
+    background-color: hsl(207, 85%, 69%);
+    border: none;
 }
 .manage-table-data svg{
     width: 2rem;
     height: 2rem;
+    fill: white;
+}
+.data-list-item{
+    padding-left: 2%;
 }
 
-.table-register{
-    
-    background-color: green;
-    width:60%;
-    height:23%;
-}
 
 .add-something{
-    width: 44%;
-    background-color: blue;
+    width: 65%;
+    height: 90%;
+    background-color:rgb(79,49,185);
+    /* display: flex;
+    justify-content: flex-end; */
 }
 .clean-save-addsomething-data{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 1rem;
-    padding: 0.5rem;
+    padding-top: 4%;
+    padding-bottom: 0.5%;
+    
+}
+.clean-save-addsomething-data button {
+    border: none;
+    /* background-color: ; Elegir colores del guardar datos */
 }
 .clean-save-addsomething-data svg{
     width: 2rem;
     height: 2rem;
+    fill: rgb(30, 168, 214);
+    
 }
 form{
-    background-color: white;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(56, 86, 185);
+    border-color: white;
+    border-style:double ;
+    box-shadow: 5px 5px 20px 1px #000000;
     display: flex;
-    justify-content: space-between ;
     flex-wrap: wrap;
+    padding-left: 5%;
 }
 .form-element{
-
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    flex-direction: column;    
 }
 .form-element-label{
-
+width: 50%;
+color: white;
 }
 .form-element-input{
-
+width: 50%;
+padding-top: 0.5%;
 }
 .form-element-input input{
-    width: 20rem;
+
+
 }
