@@ -53,6 +53,7 @@ main{
     display: flex;
     justify-content: space-around;
     height: 5%;
+    padding: 1% 0 1% 0;
     margin-top: 0.2%;
     margin-bottom: 0.2%;
     
@@ -63,7 +64,7 @@ main{
 
 .introduced-content{
     width: 100%;
-    height: 95.3%;
+    height: 93%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,7 +123,7 @@ main{
 
 .add-something{
     width: 65%;
-    height: 90%;
+
     background-color:rgb(79,49,185);
     /* display: flex;
     justify-content: flex-end; */
@@ -130,46 +131,47 @@ main{
 .clean-save-addsomething-data{
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    padding-top: 4%;
+    margin-top: 4%;
+    margin-right: 15%;
     padding-bottom: 0.5%;
-    
+    background-color: white;
+    gap: 1%;    
 }
 .clean-save-addsomething-data button {
     border: none;
+    background: none;
     /* background-color: ; Elegir colores del guardar datos */
 }
 .clean-save-addsomething-data svg{
     width: 2rem;
     height: 2rem;
     fill: rgb(30, 168, 214);
-    
+    padding-top: 30%;
 }
 form{
+    padding-top:1.2rem; ;
+    /* height: 90%; */
+    background-color: rgb(79,49,185);
     width: 90%;
-    height: 90%;
-    background-color: rgb(56, 86, 185);
-    border-color: white;
-    border-style:double ;
-    box-shadow: 5px 5px 20px 1px #000000;
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
 }
 .form-element{
     display: flex;
-    justify-content: center;
-    width: 30%;
-    height: 15%;
+    /* justify-content: center; */
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    width: 45%;
+ 
     flex-direction: column;    
 }
 .form-element-label{
-width: 50%;
-color: white;
+    color: white;
+    font-weight: bold;
 }
 .form-element-input{
-width: 50%;
-padding-top: 0.5%;
+    padding-top: 0.5%;
 }
 .form-element-input input{
 
