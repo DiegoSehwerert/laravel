@@ -48,7 +48,7 @@ header{
     fill:hsl(0, 0%, 100%);
 }
 
-.filter{
+.table-topbar-buttons{
     align-items: center;
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -57,16 +57,16 @@ header{
     padding: 0.2rem 0;
 }
 
-.filter-button button svg{
+.table-topbar-buttons button svg{
     width: 2rem;
 }
 
-.filter-button button svg path{
-    fill: hsl(207, 85%, 69%);
+.table-topbar-buttons button svg path{
+    fill: $secondary-color;
 }
 
-.filter-button button:hover svg path{
-    fill: hsl(34, 79%, 53%);
+.table-topbar-buttons button:hover svg path{
+    fill: $hover-color;
 }
 
 
@@ -84,7 +84,7 @@ header{
 }
 
 .table-buttons{
-    background-color: hsl(207, 85%, 69%);
+    background-color: $secondary-color;
     display: flex;
     justify-content: flex-end;
     gap: 0.5rem;
@@ -99,11 +99,11 @@ header{
 }
 
 .edit-button button:hover svg path, .delete-button button:hover svg path{
-    fill: hsl(34, 79%, 53%);
+    fill: $hover-color;
 }
 
 .table-data{
-    background-color: hsl(226, 64%, 66%);
+    background-color: $tertiary-color;
     padding: 0.5rem;
 }
 
@@ -140,11 +140,11 @@ header{
 }
 
 .form-clean-button button svg path, .form-save-button button svg path{
-    fill: hsl(207, 85%, 69%);
+    fill: $secondary-color;
 }
 
 .form-clean-button button:hover svg path, .form-save-button button:hover svg path{
-    fill: hsl(34, 79%, 53%);
+    fill: $hover-color;
 }
 
 form{
@@ -165,7 +165,7 @@ form{
 }
 
 .form-element-input *{
-    background-color: hsl(226, 64%, 66%);
+    background-color: $tertiary-color;
     border: none;
     box-sizing: border-box;
     font-size: 1rem;

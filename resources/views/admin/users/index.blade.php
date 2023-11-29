@@ -1,6 +1,13 @@
 @extends('admin.layout.crud')
 
 @section('table')
+
+    @component('admin.components.table-buttons')@endcomponent
+    
+    @component('admin.components.table-filter')
+    
+    @endcomponent
+
     <article class="table-record">
         <div class="table-buttons">
         <div class="edit-button">
